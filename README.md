@@ -7,12 +7,11 @@ This paper proposes *bias suppression* that prevents biased generations of LLMs 
 The notebooks we provide can be run on cloud platforms such as [Google Colab](https://colab.research.google.com/) or local machines. 
 In addition, each must [apply](https://llama.meta.com/) to use Llama2 in order to execute code related to Llama2.
 
-| Experiment         | Colab                                                                                                  | 
-| ------------------ | ------------------------------------------------------------------------------------------------------ | 
-| Building Preambles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://www.google.co.jp/) | 
-| Llama2             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://www.google.co.jp/) | 
-| OpenLlama          | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://www.google.co.jp/) | 
-| MPT                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://www.google.co.jp/) |
+| Model              | Experiment       | Colab                                                                                                  | 
+| ------------------ | ---------------- | ------------------------------------------------------------------------------------------------------ | 
+| Llama2             | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_llama2.ipynb) | 
+| OpenLlama          | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_openllama.ipynb) | 
+| MPT                | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_mpt.ipynb) |
 
 ## Citation
 ```bibtex
