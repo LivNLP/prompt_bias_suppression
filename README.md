@@ -3,12 +3,18 @@
 This repository hosts the code for our paper, [In-Contextual Gender Bias Suppression for Large Language Models](https://arxiv.org/abs/2309.07251).
 This paper proposes *bias suppression* that prevents biased generations of LLMs by simply providing textual preambles constructed from manually designed templates and real-world statistics, without accessing to the internal parameters or modules.
 
-## Getting Started
+## Notebook
 The notebooks we provide can be run on cloud platforms such as [Google Colab](https://colab.research.google.com/) or local machines. 
 In addition, each must [apply](https://llama.meta.com/) to use Llama2 in order to execute code related to Llama2.
 
-## Citation
+| Experiment         | Colab                                                                                                  | 
+| ------------------ | ------------------------------------------------------------------------------------------------------ | 
+| Building Preambles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://www.google.co.jp/) | 
+| Llama2             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://www.google.co.jp/) | 
+| OpenLlama          | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://www.google.co.jp/) | 
+| MPT                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://www.google.co.jp/) |
 
+## Citation
 ```bibtex
 @misc{oba2024incontextual,
       title={In-Contextual Gender Bias Suppression for Large Language Models}, 
