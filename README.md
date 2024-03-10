@@ -10,8 +10,11 @@ In addition, each must [apply](https://llama.meta.com/) to use Llama2 in order t
 | Model              | Experiment       | Colab                                                                                                  | 
 | ------------------ | ---------------- | ------------------------------------------------------------------------------------------------------ | 
 | Llama2             | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_llama2.ipynb) | 
+| Llama2             | Downstream Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/downstream_llama2.ipynb) | 
 | OpenLlama          | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_openllama.ipynb) | 
+| OpenLlama          | Downstream Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/downstream_openllama.ipynb) | 
 | MPT                | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_mpt.ipynb) |
+| MPT                | Downstream Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/downstream_mpt.ipynb) |
 
 ## Citation
 ```bibtex
