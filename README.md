@@ -5,16 +5,16 @@ This paper proposes *bias suppression* that prevents biased generations of LLMs 
 
 ## Notebook
 The notebooks we provide can be run on cloud platforms such as [Google Colab](https://colab.research.google.com/) or local machines. 
-In addition, each must [apply](https://llama.meta.com/) to use Llama2 in order to execute code related to Llama2.
+Note that each must [apply](https://llama.meta.com/) to use Llama2 in order to execute code related to Llama2.
 
 | Model              | Experiment       | Colab                                                                                                  | 
 | ------------------ | ---------------- | ------------------------------------------------------------------------------------------------------ | 
-| Llama2             | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_llama2.ipynb) | 
-| Llama2             | Downstream Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/downstream_llama2.ipynb) | 
-| OpenLlama          | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_openllama.ipynb) | 
-| OpenLlama          | Downstream Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/downstream_openllama.ipynb) | 
-| MPT                | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_mpt.ipynb) |
-| MPT                | Downstream Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LivNLP/prompt_bias_suppression/tree/main/notebook/downstream_mpt.ipynb) |
+| [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf)   | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_llama2.ipynb) | 
+| [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf)  | Downstream Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/LivNLP/prompt_bias_suppression/tree/main/notebook/downstream_llama2.ipynb) | 
+| [openlm-research/open_llama_7b_v2](https://huggingface.co/openlm-research/open_llama_7b_v2)  | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_openllama.ipynb) | 
+| [openlm-research/open_llama_7b_v2](https://huggingface.co/openlm-research/open_llama_7b_v2)  | Downstream Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/LivNLP/prompt_bias_suppression/tree/main/notebook/downstream_openllama.ipynb) | 
+| [mosaicml/mpt-7b](https://huggingface.co/mosaicml/mpt-7b)  | Bias Suppression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/LivNLP/prompt_bias_suppression/tree/main/notebook/exp_mpt.ipynb) |
+| [mosaicml/mpt-7b](https://huggingface.co/mosaicml/mpt-7b)  | Downstream Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/LivNLP/prompt_bias_suppression/tree/main/notebook/downstream_mpt.ipynb) |
 
 ## Citation
 ```bibtex
